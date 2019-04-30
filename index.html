@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<!-- 背景顏色 -->
+		<link rel="stylesheet" href="css/theme/beige.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			<!-- 簡報內容開始 -->
+
+		      <!-- 首頁 -->
+		      <section>
+		        <img src="image/TestlinkIcon.png" width="80%" height="80%">
+		        <h2>使用教學</h2>
+		      </section>
+
+
+		      <section>
+		        <h2>為什麼要使用testlink?</h2>
+		        <p class="fragment">Testlink是基於Web的測試案例管理系統</p>
+		        <p class="fragment">主要功能:測試項目管理、需求管理、測試計劃管理、測試案例的創建、管理和執行，並且還提供了統計功能。</p>
+
+		        <aside class="notes">
+		          需求文件 + 測試文件的內容都可以在這個系統上來做管理
+		        </aside>
+
+		      </section>
+
+
+		      <section>
+		        <h3>使用畫面</h3>
+		        <img src="image/home.png">     
+		      </section>
+
+
+		      <!-- Leader是各組的組長、Admin權限則是助教、老師才會有，剛創建好的使用者預設是Guest，
+		        所以到時候各組組長要請助教幫你們設成Leader的角色，之後各組組長再去設定小組成員的權限，
+		        角色的部分在看組長要怎麼分配，每個角色有各自的責任 -->
+		      <section>
+		        <h3>專案角色</h3>
+		        <ol>
+		          <li class="fragment">Guest：只有讀的許可權，適合於檢視測試案例和測試需求，以及專案分析的使用者。</li>
+		          <li class="fragment">Test designer：可以新增測試案例和測試需求。</li>
+		          <li class="fragment">Tester：只能執行測試案例。</li>
+		          <li class="fragment">Senior tester：可以檢視和維護測試案例，並且可以執行測試案例，但是不能管理測試計劃、分配測試任務。</li>
+		          <li class="fragment">Leader：可以新增測試規格和測試需求的所有工作，還可以管理測試計劃、分配測試任務。</li>
+		          <li class="fragment">Admin：維護產品，使用者。</li>
+		        </ol>
+
+		        <aside class="notes">
+		          Leader是各組的組長、Admin權限則是助教、老師才會有，剛創建好的使用者預設是Guest，
+		          所以到時候各組組長要請助教幫你們設成Leader的角色，之後各組組長再去設定小組成員的權限，
+		          角色的部分在看組長要怎麼分配，每個角色有各自的責任
+		        </aside>
+
+		      </section>
+
+
+		      <section><h2>開始建置</h2></section>
+
+
+		      <section>
+		        <section><h2>1.&nbsp;&nbsp;&nbsp;設定專案角色</h2></section>
+
+		        <section>
+		        	<h3>Assign User Roles</h3>
+		        	<img src="image/1-1.png">
+		        </section>
+
+		        <section>
+		        	<img src="image/1-2.png">
+		        </section>
+		      </section>
+
+
+		      <section>
+		        <section><h2>2.&nbsp;&nbsp;&nbsp;建立需求</h2></section>
+
+		        <section>
+		        	<h3>Requirement Specifications</h3>
+		        	<img src="image/2-1.png">
+		        </section>
+
+		        <section>
+		        	<img src="image/1-2.png">
+		        </section>
+		      </section>
+
+
+		      <section>
+		        <section><h2>3.&nbsp;&nbsp;&nbsp;建立測試計畫</h2></section>
+		        <section>
+		        	<h3>Test Plan Management</h3>
+		        	<img src="image/3-1.png">
+		        </section>
+		      </section>
+
+
+		      <section>
+		        <section><h2>4.&nbsp;&nbsp;&nbsp;建立測試案例</h2></section>
+		        <section>
+		        	<h3>Test Specification</h3>
+		        	<img src="image/4-1.png">
+		        </section>
+		      </section>
+
+
+		      <section>
+		        <section><h2>5.&nbsp;&nbsp;&nbsp;設定Build</h2></section>
+		        <section>
+		        	<h3>Builds / Releases</h3>
+		        	<img src="image/5-1.png">
+		        </section>
+		      </section>
+
+
+		      <section>
+		        <section><h2>6.&nbsp;&nbsp;&nbsp;分配測試工作</h2></section>
+		        <section>
+		        	<h3>Assign Test Case Execution</h3>
+		        	<img src="image/6-1.png">
+		        </section>
+		      </section>
+
+
+		      <section>
+		        <section><h2>7.&nbsp;&nbsp;&nbsp;開始測試</h2></section>
+		      </section>
+
+
+		      <section>
+		        <section><h2>8.&nbsp;&nbsp;&nbsp;觀看報告</h2></section>
+		        <section>
+		        	<h3>Test Reports</h3>
+		        	<img src="image/8-1.png">
+		        </section>
+		      </section>
+
+
+		      <section><h2>End</h2></section>
+
+		      <!-- 簡報內容結束 -->
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
