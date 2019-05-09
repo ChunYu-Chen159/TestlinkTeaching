@@ -59,11 +59,11 @@
 		      <section>
 		        <h3>專案角色</h3>
 		        <ol>
-		          <li class="fragment">Guest：只有讀的許可權，適合於檢視測試案例和測試需求，以及專案分析的使用者。</li>
-		          <li class="fragment">Test designer：可以新增測試案例和測試需求。</li>
-		          <li class="fragment">Tester：只能執行測試案例。</li>
-		          <li class="fragment">Senior tester：可以檢視和維護測試案例，並且可以執行測試案例，但是不能管理測試計劃、分配測試任務。</li>
 		          <li class="fragment">Leader：可以新增測試規格和測試需求的所有工作，還可以管理測試計劃、分配測試任務。</li>
+		          <li class="fragment">Test designer：可以新增測試案例和測試需求。</li>
+		          <li class="fragment">Senior tester：可以檢視和維護測試案例，並且可以執行測試案例，但是不能管理測試計劃、分配測試任務。</li>
+		          <li class="fragment">Tester：只能執行測試案例。</li>
+		          <li class="fragment">Guest：只有讀的許可權，適合於檢視測試案例和測試需求，以及專案分析的使用者。</li>
 		          <li class="fragment">Admin：維護產品，使用者。</li>
 		        </ol>
 
@@ -104,10 +104,11 @@
 		        	<span>先建資料夾，在建需求</span>
 		        </section>
 		        <section>
-		        	<img src="image/2-3.png">
+		        	<img src="image/2-3.png" height="80%" width="80%"><br>
+		        	<span>Type選擇Feature或System Function<br>（主要放功能需求）</span>
 		        	<aside class="notes">
 		        		Document ID就寫SRS文件裡面需求的編號，Title就需求名稱，Status看你有沒有特殊的情況，不然就預設就好，
-		        		Type也是選Use Case就好，然後最後那邊可以設定這個需求需要用幾個測試案例來測，
+		        		Type選擇Feature或System Function，有其他別的需求種類再選別的，然後最後那邊可以設定這個需求需要用幾個測試案例來測，
 		        		在最後產報告的部分，有需求覆蓋率可以看，如果這邊設定5個，然後你只用2個來測的話，
 		        		就會是40%。
 		        	</aside>
@@ -122,8 +123,8 @@
 		        	<img src="image/3-1.png">
 		        </section>
 		        <section>
-		        	<img src="image/3-2.png">
-		        	<span>Active, Public記得打勾</span>
+		        	<img src="image/3-2.png"><br>
+		        	<span>輸入軟硬體需求，<br>Active, Public記得打勾</span>
 		        </section>
 		      </section>
 
@@ -222,13 +223,87 @@
 		        <section><h2>8.&nbsp;&nbsp;&nbsp;觀看報告</h2></section>
 		        <section>
 		        	<h3>Test Reports</h3>
-		        	<img src="image/8-1.png">
+		        	<img src="image/8-1.png"><br>
+		        	<span style="font-size: 86%;">輸出測試報告：Test Reports and Metrics</span><br>
+		        	<span style="font-size: 86%;">輸出需求報告：Generate Requirement Specification Document</span>
 		        	<aside class="notes">
-		        		leader可以看到整個專案測試的表格，HTML方式做呈現，可以另外輸出成PDF等格式。
-		        		Test Report勾選Test Case related Requirements，這可以輸出測試案例、需求結合的檔案。
-		        		如果要單純輸出需求的話，要到外面選Generate Requirement Specification Document。
+		        		測試報告要輸出與需求的結合要勾選Test Case related Requirements
 		        	</aside>
 		        </section>
+		      </section>
+
+
+		      <section>
+		      	<h2>mantis<br>使用教學</h2>
+		      </section>
+
+
+		      <section>
+		        <h2>mantis主要功能</h2>
+		        <p>→Bugtracker←</p>
+		        <p>回報問題、分配工作</p>
+
+		        <aside class="notes">
+		          
+		        </aside>
+
+		      </section>
+
+
+		      <section>
+		      	<h3>管理專案</h3>
+		      	<img src="image/mantis-1.png">
+		      </section>
+
+
+		      <section>
+		      	<h3>新增使用者</h3>
+		      	<img src="image/mantis-2.png"><br>
+		      	<span>存取權限選開發者</span>
+		      </section>
+
+		      <section>
+		      	<h3>回報問題</h3>
+		      	<img src="image/mantis-3.png">
+		      </section>
+
+
+		      <section>
+		      	<h3>分配問題之負責人</h3>
+		      	<img src="image/mantis-4.png"><br>
+		      	<span>存取權限選開發者</span>
+		      </section>
+
+
+		      <section>
+		      	<h3>處理問題</h3>
+		      	<img src="image/mantis-5.png">
+		      </section>
+
+
+		      <section>
+		      	<h3>處理問題</h3>
+		      	<img src="image/mantis-6.png"><br>
+		      	<span>更改狀態：　已確認、已解決．．．</span>
+		      </section>
+
+
+		      <section><h2>申請帳號</h2></section>
+
+		      <section>
+		      	<span>
+		      		<a href="http://140.121.197.130:4101" title="Testlink連結" target="_blank">Testlink連結</a><br>
+		      			Login Name:&nbsp;&nbsp;學號<br>
+		      			First name、Last name:&nbsp;&nbsp;姓名<br>
+		      			E-mail address:&nbsp;&nbsp;學校信箱
+		      	</span><br>
+		      	<hr>
+		      	<span>
+		      		<a href="http://140.121.197.130:4103" title="mantis連結" target="_blank">mantis連結</a><br>
+		      			使用者名稱:&nbsp;&nbsp;學號<br>
+		      			電子郵件:&nbsp;&nbsp;學校信箱<br>
+		      			真實姓名:&nbsp;&nbsp;姓名<br>
+		      	</span>
 		      </section>
 
 
